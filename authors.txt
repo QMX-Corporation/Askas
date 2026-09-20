@@ -1,0 +1,23 @@
+[AUTHORS]
+  [me = dev12124]
+    *.organization = 'QMX Corporation',
+    *.organization-link = github.com/QMX-Corporation,
+    *.email = joaoanandalima@gmail.com,
+    *.local = Brazil: 'São Paulo'
+  [others = github.com/QMX-Corporation]
+    /** Your author-ring in authors.txt local: */
+    
+--End: [AUTHORS]
+
+[LICENSE]
+  [ALL AUTHORS]
+    *.license = 'MIT License',
+    *.copyright = 'All maintainers and collaborators'
+--End: [LICENSE]
+
+[WARNING]
+  [Security(!)]
+    *.warning = 'Not share or show this file.',
+    *.thanks = 'Thanks for read the Warning! Happy coding.'
+--End: [WARNING]
+

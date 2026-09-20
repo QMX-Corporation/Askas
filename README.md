@@ -1,6 +1,15 @@
 ## QMX CORPORATION -- ASKAS TERMINAL
 > A Simple and Powerful Terminal.
 
+## LICENSES
+
+### MIT LICENSE
+ * **Local official authors/maintainers: authors.txt.**
+ * **The project is licensed under the MIT License.**
+ * **Copyright (C) for all authors, maintainers, and collaborators.**
+
+---
+
 ### VERSION AND FUTURE IMPLEMENTATIONS
  * **Current Version: 0.00.1.**
  * **--- FUTURE IMPLEMENTATIONS: ---**

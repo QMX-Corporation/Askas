@@ -16,19 +16,6 @@ class mTermVar {
   static boolean HelpMode = false;
 }
 
-/** The Class of the
-  main Session */
-class mTermSession {
-  /** The mTermSession() for print in Session,
-    * NO Modes. */
-  public static void write(String str) {
-    // Is executing in the Principal Session?
-    if (mTermVar.MainMode == 0 && mTermVar.Session_Princ.equals("MainSession: MainMode")) {
-      System.out.print(str);
-    } 
-  }
-}
-
 /** The Class:
   * Functions,
   * used by the main Function */

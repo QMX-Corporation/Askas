@@ -27,7 +27,7 @@ public class BootstrapEngine {
   /** The Main Function for boot */
   public static int boot() {
     /** Print of initialization: System */
-    mTermSession.write("Preparing the init.sh\vla.r");
+    mTermSession.write("Preparing the init.sh/vla.r");
     /** 1. Verify if local path (~/.askas/deps) exists */
     File depsDir = new
     File(Bootstrapvars.path_deps);

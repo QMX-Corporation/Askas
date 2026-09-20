@@ -18,7 +18,7 @@ class mTermVar {
 
 /** The Class of the
   main Session */
-public class mTermSession {
+class mTermSession {
   /** The mTermSession() for print in Session,
     * NO Modes. */
   public static void write(String str) {

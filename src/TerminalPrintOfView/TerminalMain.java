@@ -96,7 +96,7 @@ class Commands {
   public static void HelpCommand() {
     mTermSession.write("| ----------- COMMANDS ------------ |\n");
     mTermSession.write("| license -- Show the License. |\n");
-    mTermSession.write("| exit -- Shutdowm the Askas. |\n");
+    mTermSession.write("| exit -- Shutdown the Askas. |\n");
     mTermSession.write("| help -- Displays the commands.\n");
     mTermSession.write("| ----------- COMMANDS ------------ |\n");
     mTermVar.HelpMode = true;
@@ -167,7 +167,7 @@ public class TerminalMain {
        // Executing the Commands
        String command = TermInput.readCommand();
        TermExec.commandExec(command);
-       // HelpMode is actived? 
+       // HelpMode is active? 
        while (mTermVar.HelpMode) {
          HelpPrompt();
          String helpCmd = TermInput.readCommand();

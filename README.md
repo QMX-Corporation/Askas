@@ -1,31 +1,31 @@
 ## QMX CORPORATION -- ASKAS TERMINAL
-> A Simple and PowerFul Terminal.
+> A Simple and Powerful Terminal.
 
 ### VERSION AND FUTURE IMPLEMENTATIONS
  * **Current Version: 0.00.1.**
- * **--- FUTURES IMPLEMENTATIONS: ---**
+ * **--- FUTURE IMPLEMENTATIONS: ---**
  * **Add BootStrap.**
  * **Protected Memory and protecting Variables.**
  * **New Commands: ls, cat and pwd.**
- * **Virthal KeyBoard.**
- * **Create a second repository for the Askas BootStrap installing dependencies.**
+ * **Virtual KeyBoard.**
+ * **Create a second repository for the Askas Bootstrap installing dependencies.**
  * **In 0.01.09: A Server LSP.**
 
 ---
 
 ### BOOTSTRAP AND THE SECOND repository
- * **The BootStrap Local: Main Repository (Askas).**
+ * **The Bootstrap Local: Main Repository (Askas).**
  * **The Second Repository: Askas-Dependencies.**
- * **BootStrap Characteristics: Installing dependencies of Terminal.**
+ * **Bootstrap Characteristics: Installing dependencies of Terminal.**
 
 ---
 
 ## CRITICAL FILES
 ### WHAT ARE CRITICAL FILES?
- * **README.md: VERY critic. But, is permitted modify this.**
- * **TerminalMain.java: VERY CRITIC. Modify this no resolving a problem, the Pull Request is canceled.**
- * **.gitignore: VERY CRITIC! Not permissions of modify.**
- * **Warning: In .gitignore, the maintaners have ALL PERMISSIONS of modify.**
+ * **README.md: VERY critical. But, modifying this is permitted.**
+ * **TerminalMain.java: VERY CRITICAL. Modifying this without resolving an issue will cause the Pull Request to be canceled.**
+ * **.gitignore: VERY CRITICAL! No permissions to modify.**
+ * **Warning: In .gitignore, the maintainers have ALL PERMISSIONS of modify.**
 
 ---
 

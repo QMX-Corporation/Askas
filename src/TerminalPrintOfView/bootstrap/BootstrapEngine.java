@@ -4,7 +4,7 @@
 package TerminalPrintOfView.bootstrap;
 
 /** Libs importeds for specific actions */
-import java.io.file.*;
+import java.io.file;
 /** For print */
 import TerminalPrintOfView.mTermSession;
 /** For IOExceptiond */

@@ -7,17 +7,19 @@
  * **Local official authors/maintainers: authors.txt.**
  * **The project is licensed under the MIT License.**
  * **Copyright (C) for all authors, maintainers, and collaborators.**
+ * **All files of ALL Projects of QMX Corporation have a License Header, no License Header? PR canceled.**
 
 ---
 
 ### VERSION AND FUTURE IMPLEMENTATIONS
  * **Current Version: 0.00.1.**
+ * **--- IMPLEMENTED / IN PROGRESS: ---**
+ * **[x] Add Bootstrap Engine & Dependency Fetcher**
+ * **[x] Integrity Verification (SHA-256)**
  * **--- FUTURE IMPLEMENTATIONS: ---**
- * **Add BootStrap.**
  * **Protected Memory and protecting Variables.**
  * **New Commands: ls, cat and pwd.**
  * **Virtual KeyBoard.**
- * **Create a second repository for the Askas Bootstrap installing dependencies.**
  * **In 0.01.09: A Server LSP.**
 
 ---
@@ -51,4 +53,4 @@
  git commit -m "Add: Virtual KeyBoard"
  # Push branch to GitHub
  git push origin feature/new-resource
- 
+ # Create a Pull Request in Official Site of GitHub.

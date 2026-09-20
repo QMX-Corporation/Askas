@@ -5,7 +5,22 @@
     *.email = joaoanandalima@gmail.com,
     *.local = Brazil: 'São Paulo'
   [others = github.com/QMX-Corporation]
-    /** Your author-ring in authors.txt local: */
+    /** Example: */
+    [examples = ignore-this]
+      [maintainer = @andrea]
+        *.organization = 'QMX Corporation',
+        *.organization-link = github.com/QMX-Corporation,
+        *.mode = member /** Type your mode: member or owner in invite for organization */
+        *.email = andreahello@qmx-corporation.qmx,
+        *.local = EUA: 'New York'
+      [author = @gringaka]
+        *.organization = 'QMX Corporation',
+        *.organization-link = github.com/QMX-Corporation,
+        *.mode = owner /** Type your mode: member or owner in invite for organization */
+        *.email = gringakaka@qmx-corporation.qmx,
+        *.local = EUA: "New York"
+    --End: [Examples]
+   /** Your author-ring local: */
     
 --End: [AUTHORS]
 

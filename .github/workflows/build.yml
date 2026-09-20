@@ -22,9 +22,9 @@ jobs:
         distribution: 'temurin'
 
     - name: Compile Java Sources
-      run: |
+    - run: |
         mkdir -p build/classes
-        javac -d build/classes src/TerminalPrintOfView/TerminalMain.java
+        javac -d build/classes src/TerminalPrintOfView/*.java src/TerminalPrintOfView/bootstrap/*.java
 
     - name: Build Executable JAR
       run: |

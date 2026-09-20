@@ -178,7 +178,12 @@ public class TerminalMain {
    /** The main() for 
      Rules Java */
    public static void main(String[] args) {
-     mAskas();
+     /** Executes the boot() of BootstrapEngine.java */
+     int bootStatus = TerminalPrintOfView.bootstrap.BootstrapEngine.boot();
+     /** Boot the Terminal if bootStatus == 0 */
+     if (bootStatus == 0) {
+       mAskas();
+     }
    }
 }
 

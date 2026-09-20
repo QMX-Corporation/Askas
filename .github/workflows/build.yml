@@ -1,4 +1,4 @@
-name: Build Askas Package
+name: Build and Publish Askas Package
 
 on:
   push:
@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build:
@@ -22,7 +26,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Compile Java Sources
-    - run: |
+      run: |
         mkdir -p build/classes
         javac -d build/classes src/TerminalPrintOfView/*.java src/TerminalPrintOfView/bootstrap/*.java
 

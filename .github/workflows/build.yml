@@ -28,7 +28,8 @@ jobs:
     - name: Compile Java Sources
       run: |
         mkdir -p build/classes
-        javac -d build/classes src/TerminalPrintOfView/*.java src/TerminalPrintOfView/bootstrap/*.java
+        find src -name "*.java" > sources.txt
+        javac -d build/classes @sources.txt
 
     - name: Build Executable JAR
       run: |

@@ -19,7 +19,7 @@ class Bootstrapvars {
   /** The path of dependencies */
   static final String path_deps = System.getProperty("user.home") + "/.askas/deps";
   /** Remote CDN URL for dependencies */
-  static final String remote_cdn = "https://qmx-corporation.github.io/Askas-Dependencies/";
+  static final String remote_cdn = "https://raw.githubusercontent.com/QMX-Corporation/Askas-Dependencies/main/";
 }
 
 /** MainClass of Bootstrap */
@@ -27,7 +27,7 @@ public class BootstrapEngine {
   /** The Main Function for boot */
   public static int boot() {
     /** Print of initialization: System */
-    mTermSession.write("Preparing the init.sh/vla.r");
+    mTermSession.write("Preparing the init.sh/vla.r\n");
     /** 1. Verify if local path (~/.askas/deps) exists */
     File depsDir = new
     File(Bootstrapvars.path_deps);
@@ -42,7 +42,8 @@ public class BootstrapEngine {
       );
     } catch (IOException e) {
       mTermSession.write("| === ERROR === |\n");
-      mTermSession.write("Failed in download.\n");
+      // Debug using e.getMessage()
+      mTermSession.write("Failed in download." + e.getMessage() + "\n");
       mTermSession.write("Code Error: 0x120000000B.");
       return Bootstrapvars.ASKAS_FAILED;
     }

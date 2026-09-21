@@ -82,9 +82,10 @@ class Commands {
   // The Help Command
   public static void HelpCommand() {
     mTermSession.write("| ----------- COMMANDS ------------ |\n");
-    mTermSession.write("| license -- Show the License. |\n");
-    mTermSession.write("| exit -- Shutdown the Askas. |\n");
-    mTermSession.write("| help -- Displays the commands.\n");
+    mTermSession.write("| license -- Show the License.   |\n");
+    mTermSession.write("| exit -- Shutdown the Askas.    |\n");
+    mTermSession.write("| help -- Displays the commands. |\n");
+    mTermSession.write("| exhelp -- Exit of the Help Mode|\n");
     mTermSession.write("| ----------- COMMANDS ------------ |\n");
     mTermVar.HelpMode = true;
   }

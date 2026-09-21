@@ -13,7 +13,7 @@ echo "[BUILD] Starting Askas Terminal compilation..."
 BUILD_DIR="../build"
 CLASSES_DIR="${BUILD_DIR}/classes"
 LIBS_DIR="${BUILD_DIR}/libs"
-SRC_DIR="../src"
+SRC_DIR="../../src"
 
 # 2. Clean and recreate build directory structure
 echo "[BUILD] Cleaning previous build artifacts..."
